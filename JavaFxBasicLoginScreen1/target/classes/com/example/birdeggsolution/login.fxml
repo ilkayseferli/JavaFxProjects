@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.birdeggsolution.LoginController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="268.0" style="-fx-background-color: #1793d1;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="267.0" fitWidth="267.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../example/birdeggsolution/images/arch.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="332.0" style="-fx-background-color: #ECECE7;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="48.0" layoutX="163.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../example/birdeggsolution/images/lock.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="32.0" layoutY="113.0" text="Username" />
+            <TextField fx:id="userNameTextField" layoutX="92.0" layoutY="109.0" prefHeight="26.0" prefWidth="173.0" promptText="Username" />
+            <Label layoutX="34.0" layoutY="157.0" text="Password" />
+            <PasswordField fx:id="enterPasswordTextField" layoutX="92.0" layoutY="153.0" prefHeight="26.0" prefWidth="173.0" promptText="Password" />
+            <Button fx:id="loginButton" layoutX="40.0" layoutY="223.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="32.0" prefWidth="225.0" style="-fx-background-color: #1793d1;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelButton" layoutX="40.0" layoutY="271.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="32.0" prefWidth="225.0" style="-fx-background-color: #1793d1;" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="loginMessageLabel" alignment="CENTER" layoutX="13.0" layoutY="191.0" prefHeight="18.0" prefWidth="303.0" text="Invalid Login. Please try again." textFill="#1793d1" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
