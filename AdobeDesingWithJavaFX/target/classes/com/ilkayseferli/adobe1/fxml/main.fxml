@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="823.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="469.0" prefWidth="823.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox prefHeight="452.0" prefWidth="189.0" style="-fx-background-color: #282828;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" stylesheets="@../style.css" text="All Items" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/category.png" />
+                           </image></ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" stylesheets="@../style.css" text="Favorites" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/star.png" />
+                           </image></ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" stylesheets="@../style.css" text="Trash" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/delete.png" />
+                           </image></ImageView>
+                     </graphic>
+                  </Button>
+                  <Label prefHeight="33.0" prefWidth="180.0" text="Types" textFill="#aeaeae" />
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" stylesheets="@../style.css" text="Login" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/enter.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" stylesheets="@../style.css" text="Card" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/credit-card.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" stylesheets="@../style.css" text="Identity" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/biometrics.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" stylesheets="@../style.css" text="Source Note" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/notes.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label prefHeight="32.0" prefWidth="180.0" text="Folders" textFill="#aeaeae" />
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" stylesheets="@../style.css" text="Work" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/folder.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" stylesheets="@../style.css" text="Social" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/folder.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" stylesheets="@../style.css" text="Personal" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/folder.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+         </left>
+         <center>
+            <VBox BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="470.0" prefWidth="246.0" style="-fx-background-color: #1E1E1E; -fx-border-color: #1A1A1A; -fx-border-insets: 1 0 0 0;">
+                     <children>
+                        <TextField prefHeight="20.0" prefWidth="180.0" promptText="Search Vaults" style="-fx-background-color: #404040; -fx-text-fill: #FFFFFF;">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #282828;">
+                           <graphic>
+                              <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icons/plus.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </center>
+         <right>
+            <Pane prefHeight="480.0" prefWidth="380.0" style="-fx-background-color: #1E1E1E; -fx-border-color: #1a1a1a; -fx-border-insets: 1 0 0 0;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutX="50.0" layoutY="41.0">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/creative-cloud.png" />
+                           </image>
+                        </ImageView>
+                        <VBox layoutX="48.0" layoutY="2.0">
+                           <children>
+                              <Label prefHeight="20.0" prefWidth="100.0" text="Adobe" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="16.0" prefWidth="100.0" text="Login" textFill="#aeaeae" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                  <TextField layoutX="51.0" layoutY="117.0" prefHeight="34.0" prefWidth="280.0" promptText="Username" style="-fx-background-color: #404040; -fx-text-fill: #FFFFFF;" />
+                  <PasswordField layoutX="50.0" layoutY="172.0" prefHeight="34.0" prefWidth="280.0" promptText="Password" style="-fx-background-color: #404040; -fx-text-fill: #FFFFFF;" />
+                  <VBox layoutX="51.0" layoutY="235.0" prefHeight="32.0" prefWidth="280.0">
+                     <children>
+                        <Label text="Website" textFill="#acacac">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="adobe.com" textFill="WHITE">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Line endX="180.00003051757812" endY="7.62939453125E-6" layoutX="151.0" layoutY="100.0" startX="-100.0" stroke="#404040" />
+                  <Line endX="179.00003051757812" endY="7.62939453125E-6" layoutX="148.0" layoutY="226.0" startX="-100.0" stroke="#404040" />
+                  <Line endX="179.00003051757812" endY="7.62939453125E-6" layoutX="151.0" layoutY="277.0" startX="-100.0" stroke="#404040" />
+                  <VBox layoutX="51.0" layoutY="284.0" prefHeight="100.0" prefWidth="280.0">
+                     <children>
+                        <Label text="Notes" textFill="#acacac">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Some Notes Go here" textFill="WHITE">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Button layoutX="323.0" layoutY="14.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #282828; -fx-background-radius: 5;">
+                     <graphic>
+                        <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/close.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="290.0" layoutY="14.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #282828; -fx-background-radius: 5;">
+                     <graphic>
+                        <ImageView fitHeight="17.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/draw.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </Pane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
