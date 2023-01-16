@@ -21,8 +21,8 @@ public class HelloApplication extends Application {
             y = evt.getSceneY();
         });
         root.setOnMouseDragged(evt -> {
-            stage.setX(evt.getScreenX());
-            stage.setY(evt.getScreenY());
+            stage.setX(evt.getScreenX() - x);
+            stage.setY(evt.getScreenY() - y);
         });
 
         stage.show();
